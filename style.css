@@ -1,4 +1,7 @@
-h2 {
-color:red;
+h1 {
+  width: 50%;
+  margin: 0 auto; /* Centers the element itself horizontally */
+  text-align: center; /* Centers the text inside the element */
+  padding: 15px; 
+  border: 2px solid black; 
 }
-
