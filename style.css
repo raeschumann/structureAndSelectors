@@ -5,3 +5,33 @@ h1 {
   padding: 15px; 
   border: 2px solid black; 
 }
+
+p.eat-drink, p.visit {
+  text-indent: 10%;
+}
+
+.visit{
+    color:red;
+}
+
+/* Targets list item under resturant list */
+.resturants nth-child(3){
+text-transform: uppercase;
+    color:blue
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  background-color: black;
+}
+
+a:active {
+  color: red;
+}
