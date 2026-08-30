@@ -1,29 +1,26 @@
-/* 1. Centers the h1 element and text, sets width, padding, and border */
 h1 {
   width: 50%;
-  margin: 0 auto; 
-  text-align: center; 
+  margin: 0 auto; /* Centers the element itself horizontally */
+  text-align: center; /* Centers the text inside the element */
   padding: 15px; 
   border: 2px solid black; 
 }
 
-/* 2. Indents the text of paragraphs with the eat-drink and visit classes */
 p.eat-drink, p.visit {
   text-indent: 10%;
 }
 
-/* 3. Changes the text color for all elements using the visit class */
-.visit {
-  color: red;
+.visit{
+    color:red;
 }
 
-/* 4. Capitalizes and changes the color of the 3rd item in the restaurants list */
-.restaurants li:nth-child(3) {
-  text-transform: uppercase;
-  color: blue;
+/* Targets list item under resturant list */
+.resturants li:nth-child(3){
+text-transform: uppercase;
+    color:blue
 }
 
-/* 5. Sets the styling for the four standard link states */
+/* Colors pertaining to the links */
 a:link {
   color: green;
 }
